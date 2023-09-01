@@ -285,7 +285,7 @@ android.logcat_filters = *:S python:D
 # In past, was `android.arch` as we weren't supporting builds for multiple archs at the same time.
 
 # (other settings)
-android.arch = armeabi-v7a
+android.archs = armeabi-v7a
 android.api = 27
 # (int) overrides automatic versionCode computation (used in build.gradle)
 # this is not the same as app version and should only be edited if you know what you're doing
