@@ -4,7 +4,7 @@ from kivy.uix.button import Button
 from kivy.uix.textinput import TextInput
 from kivy.uix.dropdown import DropDown
 from kivy.uix.checkbox import CheckBox
-
+#
 import time
 
 class MainApp(App):
