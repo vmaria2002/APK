@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThankYouPage">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="176dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="111dp"
+        android:layout_marginBottom="73dp"
+        android:text="Thank you!"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="359dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="236dp"
+        android:layout_marginBottom="345dp"
+        android:text="Experiment finished with success!"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonHome"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="282dp"
+        android:layout_height="252dp"
+
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="304dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/done" />
+
+    <Button
+        android:id="@+id/buttonHome"
+        android:layout_width="134dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginBottom="50dp"
+        android:text="Home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <Button
+        android:id="@+id/buttonExit"
+        android:layout_width="133dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="52dp"
+        android:text="Exit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

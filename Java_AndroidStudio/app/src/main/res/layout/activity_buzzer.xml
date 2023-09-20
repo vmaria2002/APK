@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Buzzer">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="79dp"
+        android:layout_marginBottom="58dp"
+        android:text="Do you want to use\n      a buzzer?"
+        android:textSize="26dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="303dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="202dp"
+        android:layout_marginBottom="84dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonNo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.601"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/song" />
+
+    <Button
+        android:id="@+id/buttonYes"
+        android:layout_width="117dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="76dp"
+        android:text="Yes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonNo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/buttonNo"
+        android:layout_width="129dp"
+        android:layout_height="76dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="76dp"
+        android:text="No"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonYes"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+</androidx.constraintlayout.widget.ConstraintLayout>
