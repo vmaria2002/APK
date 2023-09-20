@@ -1,0 +1,7 @@
+*********** Use branches in GitHub ***************
+
+git branch
+git checkout nume-branch
+git add .
+git commit -m "Mesajul de commit aici"
+git push origin nume-branch
