@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:title="Time: 10 min"
+    android:id="@+id/TenMin"/>
+
+    <item
+        android:title="Time: 20 min"
+        android:id="@+id/TwentyMin"/>
+
+    <item
+        android:title="Time: 30 min"
+        android:id="@+id/ThirtiethMin"/>
+
+</menu>
